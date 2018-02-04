@@ -1,0 +1,100 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.1 Service Pack 1
+
+[Axes]
+xMin = -1.98042648710047
+xMax = 5.56437638496953
+xTickUnit = 0.5
+xGridUnit = 0.5
+xShowTicks = 0
+xLabel = t
+xShowNumbers = 0
+yMin = -2.01955401414487
+yMax = 5.12008562429513
+yTickUnit = 0.5
+yGridUnit = 0.5
+yShowTicks = 0
+yShowNumbers = 0
+AxesColor = clNavy
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = 0.5*(x)*(x-1)*(x-3)*(x-5)+2
+From = 0
+To = 3
+Color = clBlue
+Size = 2
+
+[Shade1]
+LegendText = g(x)
+ShadeStyle = 2
+BrushStyle = 0
+Color = clSilver
+FuncNo = 1
+sMin = 0
+sMax = t
+sMin2 = 0
+sMax2 = t
+MarkBorder = 0
+
+[Label1]
+Placement = 0
+Pos = 0.834001322615252;3.66562525200482
+Text = {\\rtf1\\fbidis\\ansi\\ansicpg1256\\deff0\\deflang13313{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\ltrpar\\cf1\\lang1033\\i\\f0\\fs48 y=f(t)\\lang13313\\i0\\f1\\fs28\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Relation1]
+Relation = y<=0.5*(x)*(x-1)*(x-3)*(x-5)+2
+Constraints = x>=0 and y>=0 and x<=3
+Style = 4
+Color = clNavy
+Visible = 0
+
+[Label2]
+Placement = 5
+Pos = t;0
+Text = {\\rtf1\\fbidis\\ansi\\ansicpg1256\\deff0\\deflang13313{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\ltrpar\\cf1\\i\\f0\\fs28 x\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[PointSeries1]
+FillColor = clRed
+LineColor = clBlue
+Size = 3
+Style = 0
+LabelPosition = 1
+PointCount = 1
+Points = t,0;
+LegendText = x
+
+[Label3]
+Placement = 7
+Pos = t+0.05;0.3
+Text = {\\rtf1\\fbidis\\ansi\\ansicpg1256\\deff0\\deflang13313{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\ltrpar\\cf1\\i\\f0\\fs40 g(x)\\fs28\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 3
+FuncCount = 1
+PointSeriesCount = 1
+ShadeCount = 1
+RelationCount = 1
+OleObjectCount = 0
+
+[CustomFunctions]
+t = 0
+
+[Animate]
+Constant = t
+FramesPerSecond = 1
+%t = 0;3;0.1
+
