@@ -1,0 +1,73 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.1 Service Pack 1
+
+[Axes]
+xMin = -1.89964157706093
+xMax = 1.84587813620072
+xTickUnit = 0.2
+xGridUnit = 0.2
+yMin = -1.12612612612613
+yMax = 2.72522522522523
+yTickUnit = 0.2
+yGridUnit = 0.2
+AxesColor = clBlue
+GridColor = 0x00FF9999
+ShowLegend = 1
+Radian = 1
+
+[Func1]
+FuncType = 0
+y = 2-abs(x)
+Color = clBlue
+Size = 2
+
+[Func2]
+FuncType = 0
+y = x^4
+Color = clGreen
+Size = 2
+
+[Relation1]
+Relation = y<=2-abs(x) and y>=x^4
+Style = 4
+Color = clRed
+Size = 2
+
+[Relation2]
+Relation = x=-1
+Style = 4
+Color = clBlack
+Visible = 0
+
+[Relation3]
+Relation = x=1
+Style = 2
+Color = clBlack
+Visible = 0
+
+[Label1]
+Placement = 0
+Pos = 0.375862334759318;1.80142135378622
+Text = {\\rtf1\\fbidis\\ansi\\ansicpg1256\\deff0\\deflang13313{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\ltrpar\\cf1\\lang1033\\i\\f0\\fs40 y=2-|x|\\lang13313\\f1\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = -1.02031705656402;0.500289140491843
+Text = {\\rtf1\\fbidis\\ansi\\ansicpg1256\\deff0\\deflang13313{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\ltrpar\\cf1\\i\\f0\\fs40 y=x\\super 4\\nosupersub\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Data]
+TextLabelCount = 2
+FuncCount = 2
+PointSeriesCount = 0
+ShadeCount = 0
+RelationCount = 3
+OleObjectCount = 0
+
