@@ -1,0 +1,3 @@
+const loadListeners = () => {
+  alert('hi')
+}
