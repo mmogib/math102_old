@@ -1,8 +1,0 @@
-name: math102-env
-channels:
-  - conda-forge
-dependencies:
-  - numpy
-  - matplotlib
-  - pandas
-  - sympy
